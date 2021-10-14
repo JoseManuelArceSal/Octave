@@ -7,6 +7,7 @@
 % Version                :1
 % Usage                  : 
 % Notes                  :Requiere Octave
+%                        :https://octaveintro.readthedocs.io/en/latest/index.html:
 
 % limpiar variables
 clear
