@@ -5,22 +5,15 @@
 % Author                 :Sabrina Andrea Hernandez (Gitsabrinax), Daniel Alberto De Jesús Dominguez (danyd3), Jose Manuel Arce Salvador (JoseManuelArceSal)
 % Date                   :20211013
 % Version                :1
-% Usage                  : 
+% Usage                  :
 % Notes                  :Requiere Octave
-%                        :https://octaveintro.readthedocs.io/en/latest/index.html:
-
+%                        :https://octaveintro.readthedocs.io/en/latest/index.html
 % limpiar variables
-clear
-% Ejemplo mínimo de material para envase cilindrico
-% Rango de 0.0.1..59.4 i:0.0
-r=0:0.1:59.4;
-r2=0:0.1:60.60;
-% Valor de la funcion
-x=3*r
-y=2*r2
-% función plotear
-a=x+y
-%función para determinar valor mínino
-rest=fminbnd(ar,0,1);
-%Dibujar x.y
-plot(x, y)
+
+
+%Rango de la base y de la altura 
+x=[0:1:60];
+%Función a plotear para obtener el área máxima  
+A=(480*x/3-8*x.^2/3)
+%Funcion a plotear
+plot(A)
